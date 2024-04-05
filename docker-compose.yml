@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  node_app:
+    build:
+      context: .
+      dockerfile: ./kanastra-challenge-boilerplate/dockerfile
+    ports:
+      - "8888:80"  
+    depends_on:
+      - flask_app    
+
+  flask_app:
+    build:
+      context: .
+      dockerfile: ./payment-processing/dockerfile
+    ports:
+      - "5002:5000"  
+ 
