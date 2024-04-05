@@ -13,7 +13,7 @@ def upload_file():
     else:
         return make_response(
             jsonify(
-                {"message": "Arquivo não é um CSV"}
+                {"message": "Nao contem um arquivo valido"}
             ),
             401,
         )
