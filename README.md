@@ -1,4 +1,4 @@
-# observações: Pessoal, eu nao sou dev front end porem fiz meu melhor para a entrega.Como um bom dev não fujo de um desafio!
+# observações: Pessoal, eu nao sou dev front end porem fiz meu melhor para a entrega. Como um bom dev não fujo de um desafio!
 
 # Instalação:
     
