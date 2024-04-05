@@ -6,8 +6,8 @@ para instalação e funcionamento desta aplicação siga os steps abaixo:
 
 1. faça o clone do projeto: git@github.com:Hermann91/bill_dispatch.git
 
-2. abra seu terminal e na raiz (bill_dispatch) esxecute apenas o comando:  docker-compose up
-    esse comando fara executara a instalação de todos componentes necessarios seguindo o dockerfile de cada aplicação
+2. abra seu terminal e na raiz (bill_dispatch) execute apenas o comando:  docker-compose up
+    esse comando fara executar a instalação de todos componentes necessarios seguindo o dockerfile de cada aplicação
 
 3. abra seu navegador em: http://localhost:8888/ faça upload do arquivo e acompanhe os logs pelo terminal da execução da app.
 
