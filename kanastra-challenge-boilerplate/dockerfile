@@ -1,0 +1,10 @@
+FROM node:14 AS build-stage
+WORKDIR /app
+COPY ./kanastra-challenge-boilerplate/ /app/
+RUN rm -rf /app/node_modules && npm install
+RUN npm build
+FROM nginx:alpine AS production-stage
+WORKDIR /usr/share/nginx/html
+COPY --from=build-stage /app/dist .
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
